@@ -42,6 +42,12 @@ const Counter = () => {
       position: "top-left",
       theme: "dark",
     });
+    toast.info("Hello! Test INFO with a lot of text like it's a kinda big error an you're trynna show it all so everybody could understand what's going on idk what else can i type here", {
+      position: "top-right",
+      draggable: true,
+      autoClose: 10000,
+      theme: "colored"
+    });
   }, []);
 
   const onClickHandler = (value: number) => {
